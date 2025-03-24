@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "app",
-    "slug": "app",
+    "name": "Mov4U",
+    "slug": "Mov4U",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/logo.png",
+    "icon": "./assets/images/movie.png",
     "scheme": "movies",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -13,22 +13,22 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/logo.png",
+        "foregroundImage": "./assets/images/icons8-movie-48.png",
         "backgroundColor": "#ffffff"
       }
     },
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/images/logo.png"
+      "favicon": "./assets/images/icons8-movies-48.png"
     },
     "plugins": [
       "expo-router",
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/logo.png",
-          "imageWidth": 200,
+          "image": "./assets/images/icons8-movie-48.png",
+          "imageWidth": 50,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
